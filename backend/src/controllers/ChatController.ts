@@ -4,7 +4,7 @@ import axios from 'axios';
 const GPT_API_BASE_URL = "https://api.openai.com/v1/rgstr";
 const GPT_API_COMPLETIONS_ENDPOINT = `${GPT_API_BASE_URL}/completions`;
 // Use environment variable for API key
-const API_KEY = "sk-proj-rSopIC8yERsM2MNJFKBCT3BlbkFJU1Z4wfTCu21F9KDomTnl";
+const API_KEY = "";
 const GPT_API_URL = `${GPT_API_COMPLETIONS_ENDPOINT}?api_key=${API_KEY}`;
 
 @Controller('chat')
